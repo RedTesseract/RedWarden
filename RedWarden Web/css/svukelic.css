@@ -1,0 +1,247 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+	background-image: url("../img/digital.jpg");
+    
+    margin-left: auto;
+    margin-right: auto;
+	color: $edeaea;
+}
+
+#wrapper {
+	position:relative;
+}
+
+header {
+	background-image: url("../img/tes.png");
+	background-color: #171414;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ffffff;
+    
+    background-size: 250px;
+    background-repeat: no-repeat;
+    
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+    width: 100%;
+	border-bottom: solid 4px #f23f37;
+}
+
+section#prijava {
+	text-align: center;
+	padding: 5%;
+	
+	background-color: #171414;
+	color: $edeaea;
+}
+
+nav#navigacija {
+    display: inline-block;
+	margin-bottom: 15px;
+}
+
+#navigacija > ul {
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+#navigacija > ul li{
+    padding: 0 0 4px 5px;
+}
+
+#navigacija > ul li a{
+    display: block;
+    color: #edeaea;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #5A5A5A;
+	padding: 11px 20px;
+}
+
+#navigacija > ul li a:hover{
+    color: #ffffff;
+    background-color: #f23f37;
+}
+
+section#sadrzaj {
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+	color: #edeaea;
+	background-color: #171414;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section#sadrzaj2 {
+	background-color: #171414;
+	padding-top: 5px;
+	text-align: left;
+    padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+	margin-bottom: 30px;
+	color: #edeaea;
+    border-radius: 10px;
+	padding-bottom: 5px
+}
+
+a{
+	color: orange;
+}
+
+footer {
+    clear: both;
+	border-top: solid 4px #f23f37;
+	height: 10%;
+	width: 100%;
+    
+	background: #171414;
+	color: #edeaea;
+	padding-top: 15px;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+footer > address > a:visited,
+footer > address > a {
+    color: #E4433C;
+}
+
+.gumb {
+    background: #ccc;
+    cursor: pointer;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	width: 20%;
+}
+
+form {
+	position: relative;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+	margin: auto;
+	text-align: left;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    clear: both;
+}
+
+input {
+    width: 40%;
+	border: solid 1px;
+	float: right;
+}
+
+textarea {
+	border: solid 1px;
+	float: right;
+}
+
+select {
+	float: right;
+}
+
+.kutija {
+	float: left;
+	margin-left: 30%;
+}
+
+table {
+    border-collapse: inherit;
+    border-radius: 3px;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+	overflow: hidden;
+	
+	margin: auto;
+}
+
+tr {
+	background-color: #eaeaea;
+}
+
+th {
+    background: #A41629;
+    border-style: none;
+    color: #edeaea;
+    font-size: 12px;
+    padding: 8px;
+	width: 105px;
+}
+
+td {
+    border-style: none;
+    color: #555555;
+    padding: 4px;
+    font-size: 12px;
+	width: 105px;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: #FAAC86;
+}
+
+.provjeravalja {
+	background-color: #73f92f;
+}
+
+.provjeranevalja {
+	background-color: #fb4d12;
+}
+
+article#greske {
+	text-align: center;
+}
+
+#sidebar_container
+    { float: right;
+      width: 20%
+	  }
+     
+    .sidebar
+    { float: left;
+      padding: 0;
+      margin: 0 0 16px 0;}
+     
+    .sidebar_item
+    { background: #171414;
+      padding: 15px 15px;
+	  text-align: left;
+	  color: white;
+	  border-radius: 10px;
+	  margin-bottom: 5;
+	  }
+	  
+	.sidebar li a { 
+	color: white;}
+	
+.dataTables_wrapper {
+   _height: 102px;
+   min-height: 102px;
+   margin-top: 0px;
+}
+
+.display{
+    _height: 102px;
+   min-height: 102px;
+   margin-top: 0px;
+}

@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.03.2015., 16:55:43
+    Author     : vjezbe15
+*/
+
+body {
+	font-size: 13px;
+	width: 95%;
+	text-align: center;
+}
+
+header{
+	background-image: url('../img/logo.png');
+}
+
+nav#navigacija {
+    width: 17%;
+	float: left;
+	padding: 5px 5px 5px 5px;
+}
+
+footer {
+    width: 95%;
+}
+
+table {
+	margin-left: 5%;
+}
+
+.slika{
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.podaci{
+	text-align: left;
+}
+
+.nekitekst{
+	padding-top: 20px;
+}
+
+.cilj {
+	text-align: left;
+}
+
+.slika{
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 30%;
+	padding-right: 5px;
+}
